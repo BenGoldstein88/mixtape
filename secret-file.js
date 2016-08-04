@@ -9,7 +9,6 @@ try {
 catch (err) {
   config = {}
   console.log("unable to read file '" + fileName + "': ", err)
-  console.log("see secret-config-sample.json for an example")
 }
 
 console.log("test secret is:", config.testSecret)
