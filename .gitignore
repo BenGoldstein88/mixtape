@@ -1,3 +1,4 @@
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -5,3 +6,4 @@
 !/tmp/.keep
 
 secret-config.json
+
